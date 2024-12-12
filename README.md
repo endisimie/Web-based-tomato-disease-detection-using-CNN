@@ -16,6 +16,8 @@ The dataset has 10 classes including healthy class:
  'Tomato___Tomato_Yellow_Leaf_Curl_Virus',
  'Tomato___Tomato_mosaic_virus',
  'Tomato___healthy']
+
+ ![alt text][(http://url/to/img.png](https://github.com/endisimie/Web-based-tomato-disease-detection-using-CNN/blob/main/Early_blight_of_tomato.jpeg))
 Image processing 
 The image_dataset_from_directory function is used to load image data from a directory. Images are resized to 256x256 pixels and grouped into batches of 32 for efficient processing. Labels are inferred from the directory structure and represented in a categorical format. Pixel values of the images are normalized to a range of [0, 1] by dividing by 255.0 for consistent model training.
 
