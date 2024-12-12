@@ -36,3 +36,7 @@ Training and validating data result improvements
 The model performance shows improvements from epoch to epochs as we seen in the graph
 
 ![alt text](https://github.com/endisimie/Web-based-tomato-disease-detection-using-CNN/blob/main/Tomato%20disease%2097%20accuracy%20result%20graph%20140029.png?raw=true)
+
+I used a streamlit for web development. Before use the the app first you have to install streamlite the run the project
+
+!!!! THANK YOU!!!
