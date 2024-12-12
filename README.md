@@ -18,6 +18,7 @@ The dataset has 10 classes including healthy class:
  'Tomato___healthy']
 
  ![alt text](https://github.com/endisimie/Web-based-tomato-disease-detection-using-CNN/blob/main/Early_blight_of_tomato.jpeg?raw=true))
+ 
 Image processing 
 The image_dataset_from_directory function is used to load image data from a directory. Images are resized to 256x256 pixels and grouped into batches of 32 for efficient processing. Labels are inferred from the directory structure and represented in a categorical format. Pixel values of the images are normalized to a range of [0, 1] by dividing by 255.0 for consistent model training.
 
@@ -28,4 +29,10 @@ The initialized model conv_base can be used as a feature extractor to extract fe
 It initializes a Sequential model and adds the pre-trained DenseNet121model (conv_base) as the base. The model flattens the output from the base model and adds two fully connected layers with ReLU activation. Batch normalization is applied after each fully connected layer to improve training stability and speed.
 
 
+![alt text](https://github.com/endisimie/Web-based-tomato-disease-detection-using-CNN/blob/main/test%20results140157.png?raw=true)
 
+
+Training and validating data result improvements 
+The model performance shows improvements from epoch to epochs as we seen in the graph
+
+![alt text](https://github.com/endisimie/Web-based-tomato-disease-detection-using-CNN/blob/main/Tomato%20disease%2097%20accuracy%20result%20graph%20140029.png?raw=true)
